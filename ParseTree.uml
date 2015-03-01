@@ -1,0 +1,85 @@
+[Files]
+File0=DataTreeNode.java
+File1=OperatorTreeNode.java
+File2=Parser.java
+File3=ParseTree.java
+File4=ParseTreeNode.java
+
+[Box:  - DataTreeNode]
+X=245
+Y=355
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - OperatorTreeNode]
+X=408
+Y=355
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - Parser]
+X=20
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - ParseTree]
+X=216
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Box:  - ParseTreeNode]
+X=266
+Y=200
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=10
+FontName=MS Sans Serif
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+ShowConnections=0
+Fontname=MS Sans Serif
+Fontsize=10
+ShowObjectDiagram=0
+
+[Connections]
+V0=DataTreeNode#ParseTreeNode#Inheritends####0#0#0
+V1=OperatorTreeNode#ParseTreeNode#Inheritends####0#0#0
+V2=ParseTree#ParseTreeNode#AssociationDirected####0#0#0
+V3=ParseTreeNode#ParseTreeNode#AssociationDirected####1#0#0
+
+[Interactive]
+I0=
+
+[Window]
+Left=-8
+Top=-31
+Width=1380
+Height=490
+
